@@ -1,0 +1,5 @@
+Flask==3.0.3
+requests==2.32.3
+# bot/viber.py imports urllib3.util.retry directly, so pin it rather than
+# inheriting whatever requests happens to resolve. allowed_methods needs >=1.26.
+urllib3==2.2.2
